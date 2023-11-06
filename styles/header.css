@@ -1,0 +1,90 @@
+/* HEADER */
+.header {
+    background-color: black;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 40px;
+    align-items: center;
+}
+.header-left > .logo img {
+    height: 40px;
+    padding: 0px 20px;
+}
+
+/* Navigation bar header*/
+.navbar {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 500px
+
+}
+
+.navbar > .title-navbar {
+    color: rgb(236, 236, 147);
+    text-transform: uppercase;
+    font-size: 1.4em;
+}
+
+.navbar > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar > .links-wrapper > .nav-link a {
+    text-decoration: none;
+    color: white;
+    font-weight: 1000;
+    font-size: 1.6em;
+}
+
+.navbar > .links-wrapper > .dropdown {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+
+.navbar > .links-wrapper > .dropdown button {
+    text-decoration: none;
+    background-color: transparent;
+    border-style: none;
+    color: grey;
+    font-weight: 400;
+    font-size: 1.4em;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+/* Buttons Header*/
+.header > .buttons-wrapper {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.header > .buttons-wrapper > .btn button {
+    background-color: #3b3e47;
+    font-family: 'Lato', sans-serif;
+    border: 0px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 18px 25px;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.header > .buttons-wrapper > .icon i {
+    font-size: 2.2em;
+    margin-left: 30px;
+    margin-right: 10px;
+}
